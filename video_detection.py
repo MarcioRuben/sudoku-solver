@@ -14,8 +14,8 @@ for i in range(0, 9):
 
 #adds the whitespace template
 templates.append(cv2.imread('whitespace1.png'))
-templates_shapes.append(templates[8].shape[:2])
-templates_grey.append(cv2.cvtColor(templates[8], cv2.COLOR_BGR2GRAY))
+templates_shapes.append(templates[9].shape[:2])
+templates_grey.append(cv2.cvtColor(templates[9], cv2.COLOR_BGR2GRAY))
 
 #get the video stream input
 video = cv2.VideoCapture('http://192.168.1.246:8080/video')
